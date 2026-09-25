@@ -3,7 +3,7 @@ import os
 import telebot
 
 # لێرە تـۆکنێ بۆتێ خۆ دانی (یان ل Railway وەک Environment Variable دانە)
-TOKEN = os.getenv("BOT_TOKEN", "LERA_TOKEN_XWE_DANE")
+TOKEN = os.getenv("BOT_TOKEN", "8856597200:AAE4OzfUxvbv-4MMW57fBfbNT9ku1maykc4")
 bot = telebot.TeleBot(TOKEN)
 
 
